@@ -1,0 +1,40 @@
+name: projetocomunicação
+description: "Um novo projeto Flutter."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.2 <4.0.0'
+
+# Seção de dependências que o app final precisa
+dependencies:
+  flutter:
+    sdk: flutter
+# Pacote necessário para traduzir os widgets do Flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.3.1
+  intl: ^0.20.2
+  http: ^1.2.1
+  
+flutter_localizations:
+    sdk: flutter  
+# Seção de dependências apenas para desenvolvimento e teste
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # O pacote flutter_lints ajuda a encontrar erros e a manter um bom estilo de código.
+  flutter_lints: ^3.0.0
+
+# A configuração específica do Flutter fica aqui.
+flutter:
+  uses-material-design: true
+
+  # CORREÇÃO: A declaração de assets deve estar aqui, dentro de 'flutter:'.
+  # A indentação (espaçamento) é muito importante.
+  # assets:
+  #  - assets/ crie uma pasta assets adicione sua imagem e a informe aqui
+
+
