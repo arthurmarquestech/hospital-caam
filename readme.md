@@ -74,16 +74,16 @@ INSERT INTO `usuarios` (`nome`, `usuario`, `senha`, `cargo`) VALUES
 
 
 3. Configuração do Front-end (Flutter)
-Abra o Projeto: Abra a pasta frontend/projecthosl no seu editor de código (VS Code).
+Abra o Projeto: Abra a pasta frontend no seu editor de código (VS Code).
 Instale as Dependências: No terminal, execute: flutter pub get.
 Ajuste a URL da API:
 Em todos os ficheiros .dart dentro da pasta lib/telas/, encontre a linha final url = Uri.parse('...');.
-Certifique-se de que o endereço IP corresponde ao do seu servidor local (ex: http://10.82.0.8/api_caam/...).
+Certifique-se de que o endereço IP corresponde ao do seu servidor local (ex: http://localhost/backend/...).
 Execute a Aplicação (Desenvolvimento):
 Use a configuração de inicialização Flutter Web (No CORS) no VS Code e pressione F5.
 Compile para Produção:
 Para gerar os ficheiros para o servidor, execute: flutter build web --base-href /nome_da_pasta_no_servidor/.
-Copie o conteúdo da pasta build/web para a pasta do seu projeto no servidor (ex: htdocs/projecthosl).
+Copie o conteúdo da pasta build/web para a pasta do seu projeto no servidor (ex: htdocs/nome_da_pasta_no_servido).
 🛠️ Tecnologias Utilizadas
 Front-end: Flutter
 Back-end: PHP
