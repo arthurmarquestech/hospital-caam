@@ -1,6 +1,6 @@
 CAAM - Comunicado de Alteração de Agenda Médica
 📋 Sobre o Projeto
-O CAAM é uma aplicação web desenvolvida para otimizar a comunicação entre os médicos e a administração de um hospital no que diz respeito a alterações de agenda. A ferramenta permite que os médicos submetam solicitações de alteração de forma rápida e padronizada, e que os gestores(call-center) analisem e aprovem essas solicitações de forma centralizada e faça o seu devido ajuste nas agendas.
+O CAAM é uma aplicação web desenvolvida para otimizar a comunicação entre os médicos e a administração de um hospital no que diz respeito a alterações de agenda. A ferramenta permite que os médicos submetam solicitações de alteração de forma rápida e padronizada, logo após solicitação os gestores configurados recebem um e-mail com o aviso sobre a solicitação e os mesmos gestores(call-center) analisem e aprovem essas solicitações de forma centralizada e faça o seu devido ajuste nas agendas.
 Este projeto foi construído com um Front-end em Flutter Web e um Back-end em PHP com MySQL, ideal para ser hospedado num servidor local (Intranet).
 
 ✨ Funcionalidades Principais
