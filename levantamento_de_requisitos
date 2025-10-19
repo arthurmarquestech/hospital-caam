@@ -1,0 +1,80 @@
+Documento de Requisitos e Funcionalidades do Sistema para 
+Comunicado de Alteração de Agenda Médica
+ Nome: Arthur Marques de Macedo
+ Função: Analista de Sistemas PL
+ Introdução
+ Este documento apresenta os requisitos funcionais e regras de negócio para o desenvolvimento de 
+um sistema de comunicado de alteração de agenda médica solicitado pelo Call Center. O 
+objetivo é garantir que o sistema atenda às demandas do negócio, respeitando as definições e limites 
+estabelecidos pela Diretoria e pela Coordenação do Call Center.
+ Contextualização para Resolução
+ A ferramenta CAAM – Comunicado de alteração de agenda médica permitirá que os médicos 
+realizem aberturas de solicitações referente a alteração ou até exclusão em suas respectivas agendas 
+médicas de forma eficiente. Além disso, será flexível para permitir ajustes futuros em suas 
+parametrizações.
+ Épico
+ Problemática: A empresa necessita de um sistema para facilitar e gerenciar as solicitações de 
+alteração de agenda médica realizados pela equipe de médicos da instituição, garantindo o 
+cumprimento das regras do negócio.
+ Objetivo: Desenvolver uma ferramenta que auxilie na realização e no controle de solicitações de 
+agenda médica, respeitando as regras do negócio e assegurando a flexibilidade para ajustes futuros.
+ Feature
+ Problemática: Os usuários precisam de um sistema simples e funcional para cadastrar no sistema o 
+comunicado de alteração de agenda médica para ser realizado o controle e aprovação da alteração 
+por parte da Coordenação.
+ Objetivo: Criar um sistema que permita o comunicado de alteração de agenda médica com 
+validação de campos obrigatórios e envio de e-mail automático direcionado às respectivas 
+responsáveis de sua unidade informando a solicitação realizada pelo médico(usuário).
+ Backlog do Produto
+ 1.  Interface de Tela de Login:
+ • Campos obrigatórios: Usuário e Senha.
+ 2.  Botão de Solicitações:
+ • Botão “Minhas Solicitações” para visualização de solicitações realizadas junto as 
+informações da solicitação incluindo a data que foi feita o cadastro e sua situação(status).
+ 3. Cadastro de Unidade:
+ • Campo com autopreenchimento do usuário logado ao sistema.
+ • Campo para preenchimento da Unidade que será realizado as alterações.
+4. Interface de Tipo de Solicitação:
+ • Campo para preenchimento de Checkbox com o tipo de solicitação desejada, permitir 
+selecionar caixa de seleção com os seguintes campos:
+ 1. Alterar horário de atendimento
+ 2. Alterar dia de atendimento
+ 3. Excluir horário de atendimento 
+4. Excluir dia de atendimento
+ 5. Trocar dia ou horário de atendimento
+ 6. Bloquear dia ou horário de atendimento 
+7. Saída permanente da unidade.
+ • Campo de Observações adicionar sobre a solicitação.
+ 5. Interface de Período para Alteração (VIGÊNCIA):
+ • Campos para preenchimento de Checkbox com o tipo de vigência e período desejado, 
+permitir selecionar caixa de seleção com os seguintes campos:
+ 1. Se Temporário ou Permamente.
+ 2. Se no Período da Manhã, Tarde ou Noite.
+ • Campo com datas para definição de período.
+ • Campo para preenchimento de lista de motivos de solicitação, contendo os seguintes 
+motivos:
+ 1. Agenda Cirurgica
+ 2. Congresso
+ 3. Doença
+ 4. Licença Maternidade
+ 5. Ociosidade da Agenda
+ 6. Outro
+ 7. Recesso
+ 8. Solicitação do Hospital
+ • Botão para salvar envio de solicitação.
+ 6. Interface de Solicitação(Call Center):
+ • Visualização voltada as solicitações com devidos dados solicitados incluindo o nome do 
+médico.
+ • Botão de Captura e aprovação de solicitação.
+ História de Usuário (User Stories)
+ US01: Registro de Solicitação no Sistema
+ Como analista de sistema,
+ Desejo criar uma funcionalidade de cadastro de alteração de agenda médica,
+ Para que os usuários possam solicitar com validação de dados suas devidas alterações em suas 
+agendas, sob aprovação do call center informando automaticamente seus respectivos gestores de 
+unidade solicitada.
+ US02: Aceite de Solicitação no Sistema
+ Como analista de sistema,
+ Desejo criar uma funcionalidade de visualização de solicitações de alteração de agenda médica,
+Para que os usuários possam visualizar e realizar o aceite de devida solicitação conforme sua 
+situação.
